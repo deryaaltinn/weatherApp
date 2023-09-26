@@ -45,8 +45,9 @@ function Main() {
                 />
             </div>
         </div>
-        <div >
+        <div className='weathers' >
             {weatherData && (
+                
                 <div className='weather-container'>
                     {weatherData.forecast.forecastday.map((day)=>(
                         <div className='day-container' key={day.date}>
